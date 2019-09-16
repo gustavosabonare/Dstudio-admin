@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "playlists",
+  "info": {
+    "name": "playlist",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "songs": {
+      "collection": "song"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

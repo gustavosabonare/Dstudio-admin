@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "banners",
+  "info": {
+    "name": "banner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "eventos": {
+      "collection": "event"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "eventos",
+  "info": {
+    "name": "event",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Song": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "YouTube": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "teste": {
+      "required": true,
+      "type": "richtext"
+    }
+  }
+}
