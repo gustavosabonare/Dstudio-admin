@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "eventos",
+  "collectionName": "events",
   "info": {
     "name": "event",
     "description": ""

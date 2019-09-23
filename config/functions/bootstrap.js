@@ -10,4 +10,4 @@
  * See more details here: https://strapi.io/documentation/3.0.0-beta.x/configurations/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = (cb) => { cb && cb(); };

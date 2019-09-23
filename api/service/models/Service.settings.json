@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "servicos",
+  "collectionName": "services",
   "info": {
     "name": "service",
     "description": ""

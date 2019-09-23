@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "musicas",
+  "collectionName": "songs",
   "info": {
     "name": "song",
     "description": ""
