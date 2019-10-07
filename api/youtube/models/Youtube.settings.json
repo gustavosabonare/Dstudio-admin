@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "youtubes",
+  "info": {
+    "name": "youtube",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Link": {
+      "type": "string"
+    }
+  }
+}

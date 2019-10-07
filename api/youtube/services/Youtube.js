@@ -5,8 +5,4 @@
  * to customize this service
  */
 
-module.exports = {
-  find(params, populate = []) {
-    return strapi.query('page').find(params, populate);
-  },
-};
+module.exports = {};

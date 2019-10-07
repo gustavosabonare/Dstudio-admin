@@ -7,16 +7,32 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
-    "songs": {
-      "collection": "song"
-    },
     "title": {
       "required": true,
       "type": "string"
+    },
+    "youtubes": {
+      "collection": "youtube"
+    },
+    "Player": {
+      "enum": [
+        "Youtube",
+        "Musicas"
+      ],
+      "type": "enumeration"
+    },
+    "Ativo": {
+      "type": "boolean"
+    },
+    "songs": {
+      "collection": "song"
     }
   }
 }

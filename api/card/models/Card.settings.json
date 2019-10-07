@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "events",
+  "collectionName": "cards",
   "info": {
-    "name": "event",
+    "name": "card",
     "description": ""
   },
   "options": {
@@ -14,29 +14,18 @@
     "comment": ""
   },
   "attributes": {
-    "Title": {
-      "type": "string",
-      "required": true
-    },
-    "Date": {
-      "type": "date"
-    },
-    "Song": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
-    },
-    "YouTube": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "Imagem": {
+    "image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": true
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

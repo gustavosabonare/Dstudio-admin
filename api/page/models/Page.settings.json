@@ -23,6 +23,21 @@
     },
     "carrousels": {
       "collection": "carrousel"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "videoplayer": {
+      "type": "boolean"
+    },
+    "cards": {
+      "collection": "card"
+    },
+    "url": {
+      "required": true,
+      "type": "string"
     }
   }
 }

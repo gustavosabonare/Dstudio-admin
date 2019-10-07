@@ -27,6 +27,11 @@
     "artist": {
       "type": "string",
       "required": true
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
