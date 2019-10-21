@@ -29,15 +29,15 @@
       "via": "related",
       "plugin": "upload"
     },
-    "videoplayer": {
-      "type": "boolean"
-    },
     "cards": {
       "collection": "card"
     },
     "url": {
       "required": true,
       "type": "string"
+    },
+    "playlist": {
+      "model": "playlist"
     }
   }
 }

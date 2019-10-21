@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Youtube` model.
+ * Lifecycle callbacks for the `Video` model.
  */
 
 module.exports = {

@@ -18,21 +18,21 @@
       "required": true,
       "type": "string"
     },
-    "youtubes": {
-      "collection": "youtube"
-    },
-    "Player": {
+    "player": {
       "enum": [
         "Youtube",
         "Musicas"
       ],
       "type": "enumeration"
     },
-    "Ativo": {
+    "active": {
       "type": "boolean"
     },
     "songs": {
       "collection": "song"
+    },
+    "videos": {
+      "collection": "video"
     }
   }
 }

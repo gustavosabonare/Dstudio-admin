@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  find(params, populate = []) {
-    return strapi.query('page').find(params, populate);
+  find(params) {
+    return strapi.query('page').find(params, ['background', 'banner.events.image', 'carrousels.events.image', 'cards.image', 'playlist.videos']);
   },
 };

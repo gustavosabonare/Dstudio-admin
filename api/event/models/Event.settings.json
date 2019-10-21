@@ -14,29 +14,29 @@
     "comment": ""
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Date": {
+    "date": {
       "type": "date"
     },
-    "Song": {
+    "song": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
     },
-    "YouTube": {
-      "type": "string"
-    },
     "description": {
       "type": "text"
     },
-    "Imagem": {
+    "image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": true
+    },
+    "video": {
+      "model": "video"
     }
   }
 }
