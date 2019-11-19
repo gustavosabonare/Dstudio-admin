@@ -1,7 +1,6 @@
 {
   "host": "localhost",
-  "port": "${process.env.PORT || 1337}",
-  "production": true,
+  "port": "${process.env.PORT_ADMIN || 1337}",
   "proxy": {
     "enabled": false
   },
@@ -9,6 +8,12 @@
     "enabled": false
   },
   "admin": {
-    "autoOpen": false
+    "path": "/",
+    "build": {
+      "backend": "http://diademastudio.nodejs7604.kinghost.net:21145",
+      "plugins": {
+        "source": "beckend"
+      }
+    }
   }
 }
