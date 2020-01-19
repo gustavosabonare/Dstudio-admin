@@ -12,7 +12,7 @@
     "build": {
       "backend": "http://diademastudio.nodejs7604.kinghost.net:21145",
       "plugins": {
-        "source": "beckend"
+        "source": "backend"
       }
     }
   }
