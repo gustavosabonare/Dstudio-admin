@@ -7,6 +7,6 @@
 
 module.exports = {
   findOne(params) {
-    return strapi.query('event').findOne(params, ['image', 'song', 'playlist.videos']);
+    return strapi.query('event').findOne(params, ['image', 'song', 'playlist.videos.image']);
   },
 };
