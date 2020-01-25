@@ -35,8 +35,8 @@
       "plugin": "upload",
       "required": true
     },
-    "video": {
-      "model": "video"
+    "playlist": {
+      "model": "playlist"
     }
   }
 }
