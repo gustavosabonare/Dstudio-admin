@@ -7,12 +7,19 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
     "events": {
       "collection": "event"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
     }
   }
 }
